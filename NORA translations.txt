@@ -94,7 +94,7 @@
 			"error": "Feil ved validering av SIM.",
 			"notFound": "Fant ikke SIM."
 		},
-		"notSupported": "Entered value is not supported in this search."
+		"notSupported": "Denne verdien kan ikke søkes opp."
 	},
 	"navigation": {
 		"toSubscriptions": "Til abonnement",
@@ -166,7 +166,7 @@
 			},
 			"identifyCustomerModel": {
 				"title": "Bekreft ID på kunde",
-				"selectIdMethod": "Hva legitimerer kunden seg med?"
+				"selectIdMethod": "Kunden ble verifisert med:"
 			}
 		},
 		"login": {
@@ -184,7 +184,7 @@
 			"forgotPin": "Har du mistet din PIN?",
 			"pinSentTo": "Vi har sendt ny PIN til {{destination}}",
 			"showAll": "Vis alle",
-			"showLess": "Vis færre",
+			"showLess": "Vis mindre",
 			"welcomeBack": "Velkommen tilbake {{firstName}}.",
 			"dailyPinMethod": "Hvor ønsker du å få ny PIN?",
 			"resend": "Send på nytt",
@@ -194,7 +194,7 @@
 			"yourOrder": "Din bestilling",
 			"submitSuccess": "Suksess",
 			"removedProduct": "{{name}} er fjernet.",
-			"customerInfo": "Customer info",
+			"customerInfo": "Kundeinformasjon",
 			"addAnother": "Legg til mer",
 			"addCustomer": "Legg til kunde",
 			"editCustomer": "Endre kundeinformasjon"
@@ -232,7 +232,7 @@
 				"weight_g": "Vekt (g)",
 				"hd_voice": "HD voice",
 				"voice_over_lte": "Voice over LTE",
-				"voice_over_wifi": "Voice over WiFi",
+				"voice_over_wifi": "WiFi tale",
 				"bluetooth": "Bluetooth",
 				"built_in_storage_capacity": "Innebygget lagring",
 				"ram_size": "RAM"
@@ -266,9 +266,9 @@
 			"cantUpgrade": "Kan ikke oppgradere",
 			"keepCommitment": "Behold eksisterende avtaletid",
 			"existingCommitmentDescription": "Velg denne hvis du ønsker telefon med forsikring",
-			"runCreditCheck": "Gjør en kredittsjekk",
+			"runCreditCheck": "Gjennomfør kredittsjekk",
 			"runningCreditCheck": "Sjekker kredittscore",
-			"creditCheckSuccess": "Kredittsjekken er OK.",
+			"creditCheckSuccess": "Kredittsjekk ble godkjent.",
 			"loadingCommitments": "Henter avtaler",
 			"draftingOrder": "Lagrer order",
 			"draftingSuccessful": "Ordren er lagret!",
@@ -283,14 +283,14 @@
 			"signingFail": "Signeringen feilet.",
 			"signingSuccess": "Alle documenter er signert!",
 			"methodsFail": "Æsj – vi klarte ikke å hente tilgjengelige signeringsmetoder",
-			"noSigningMethods": "Ingen gyldige metoder for å signere",
+			"noSigningMethods": "Ingen gyldige signeringsmetoder tilgjengelig",
 			"documentModal": {
 				"print": "Print avtale og vilkår",
-				"printSuccess": "Printing er gjort",
-				"printFailed": "Det skjedde en feil med utskriften"
+				"printSuccess": "Printing fullført",
+				"printFailed": "Det oppsto en feil under utskrivning"
 			},
 			"manualSigning": {
-				"documentsPrinted": "Dokumenter er utskrevet.",
+				"documentsPrinted": "Dokumentene er skrevet ut.",
 				"printOutAgain": "Print en gang til",
 				"documentsSignedManually": "Avtale og vilkår skal ha blitt signert på papir.",
 				"signed": "Signert",
@@ -303,7 +303,7 @@
 				"copyCode": "Kopier kode",
 				"waitingOnScrive": "Venter på nettbrett",
 				"pleaseReviewDocument": "Vennligst se igjennom avtalen",
-				"reviewAccept": "Aksepter",
+				"reviewAccept": "Godkjenn",
 				"reviewTryAgain": "Nei - signer på nytt",
 				"continue": "Fortsett"
 			}
@@ -353,7 +353,7 @@
 			"personId": "Personnummer / Organisasjonsnummer",
 			"selectIdMehthod": "Hva identifiserer kunden seg med?",
 			"idNumber": "ID nummer",
-			"runCreditCheck": "Gjør en kredittsjekk",
+			"runCreditCheck": "Gjennomfør kredittsjekk",
 			"newAccount": "Ny kunde",
 			"existingTeliaAccount": "Eksisterende Telia-kunde",
 			"idMethod": {
@@ -364,7 +364,7 @@
 			},
 			"creditOk": "Kredittsjekk godkjent",
 			"creditNotOk": "Kredittsjekk ikke godkjent",
-			"userNotFound": "Vi fant ingen på denne kredittsjekken"
+			"userNotFound": "Kredittsjekk kan ikke gjennomføres. Vi fant ingen bruker."
 		},
 		"stockIndicator": {
 			"inStock": "På lager",
@@ -380,10 +380,10 @@
 			"unknown": "Ukjent"
 		},
 		"offeringCreditIndicator": {
-			"Ok": "Kundens kreditt er OK.",
-			"Control": "Kundens kreditt må vurderes av kundeservice. Du kan lagre ordren som utkast og følge den opp senere.",
-			"Denied": "Kunden har ikke nok kreditt for en ny Svitsj.",
-			"Failed": "Kredittsjekken feilet. Forsøk på nytt."
+			"Ok": "GODKJENT: Beløpet er innen kundens kredittgrense.",
+			"Control": "Kundens kredittgrense må vurderes av kundeservice. Du kan lagre ordren som utkast og følge den opp senere.",
+			"Denied": "AVSLAG: Ny Svitsj-avtale ville overskredet kundens kredittgrense.",
+			"Failed": "Kredittsjekk feilet. Prøv igjen."
 		},
 		"orderOverviewRow": {
 			"payNow": "Betal nå",
@@ -393,13 +393,13 @@
 			"extraServices": "Tilleggstjenester",
 			"costPerMonth": "Å betale per måned",
 			"perMonthForPlan": "Å betale for abonnement hver måned ",
-			"perMonthForPhone": "Telefonpris hver måned",
-			"perMonthForServices": "Tjenester hver måned",
-			"perMonthTotal": "Totalt å betale hver måned",
+			"perMonthForPhone": "Telefonpris per måned",
+			"perMonthForServices": "Pris for tjenester per måned",
+			"perMonthTotal": "Totalt å betale per måned",
 			"scanNewSimCard": "Skann nytt SIM-kort",
 			"scanImei": "Skann IMEI",
 			"keptExisting": "(Eksisterende)",
-			"insuranceDisclaimer": "I tilfelle det eksisterte en forsikring vil den bli fjernet"
+			"insuranceDisclaimer": "Hvis det finnes en forsikring fra før av, vil den bli fjernet "
 		},
 		"emailInputModal": {
 			"placeholder": "Skriv inn e-postadressen din"
@@ -474,8 +474,8 @@
 		}
 	},
 	"errors": {
-		"EXTERNAL_SYSTEM_ERROR": "External system responded with error",
-		"INTERNAL_SYSTEM_ERROR": "Internal system responded with error",
+		"EXTERNAL_SYSTEM_ERROR": "Ekstern systemfeil",
+		"INTERNAL_SYSTEM_ERROR": "Intern systemfeil",
 		"general": {
 			"draftOrder": "Lagre til utkast feilet.",
 			"timeout": "Tilkobling tok for lang tid"
@@ -486,31 +486,31 @@
 		"PIN_INCORRECT": "Feil PIN",
 		"PIN_NOT_FOUND": "Ingen PIN funnet. Be om ny PIN-kode.",
 		"IMEI_INVALID": IMEI ikke gyldig",
-		"EMAIL_NOT_SENT": "Klarte ikke å sende epost.",
+		"EMAIL_NOT_SENT": "Feil: e-posten kunne ikke bli sendt.",
 		"SIMCARD_NOT_AVAILABLE": "SIM-kort er ikke tilgjengelig.",
 		"IMEI_NOT_AVAILABLE": "IMEI er ikke tilgjengelig.",
-		"MAX_AGE_OF_PRODUCT_USER_EXCEEDED": "Brukers alder er over tillatt alder.",
+		"MAX_AGE_OF_PRODUCT_USER_EXCEEDED": "Brukerens alder overskrider aldersgrense.",
 		"BUSINESS_LOOKUP_NOT_SUPPORTED": "Foreløpig kan man ikke søke opp bedriftskunder.",
 		"PREPAID_LOOKUP_NOT_SUPPORTED": "Kontantkort kundeforhold kan foreløpig ikke søkes opp",
 		"RESERVED_LOOKUP_NOT_SUPPORTED": "Reserverte numre kan føreløpig ikke søkes opp",
-		"TELEPHONE_NUMBER_IN_USE_ON_ORDER_IN_PROGRESS": "Dette nummeret er i en annen ordreprosess.",
+		"TELEPHONE_NUMBER_IN_USE_ON_ORDER_IN_PROGRESS": "Dette nummeret brukes i en annen ordreprosess.",
 		"NOT_FOUND": "Ingenting funnet!",
 		"HARDWARE_NOT_AVAILABLE": "Ikke tilgjenglig for salg.",
 		"ILLEGAL_ADDITIONAL_PRODUCT_COMBINATION": "Disse produktene kan ikke kombineres.",
 		"CASHBOX_NOT_OPENING": "Kunne ikke åpne kasseapparatet"
 	},
 	"warnings": {
-		"scanNotHandled": "Scanned identifier {{identifier}} ignored"
+		"scanNotHandled": "Feil ved skanning av identifikator {{identifier}}."
 	},
 	"notifications": {
-		"DATA_MISSING": "Det er noe feil med å hente oppdaterte priser",
-		"DATA_OUTDATED": "Priser kan være utdatert og vi klarte ikke å oppdatere dem"
+		"DATA_MISSING": "Det har oppstodd en feil ved henting av oppdaterte priser.",
+		"DATA_OUTDATED": "Prisene kunne ikke oppdateres og kan dermed være utdatert."
 	},
 	"documents": {
 		"PRIVATE_TERMS_TF_SWITCH_INSURANCE": "SVITSJ-forsikring",
 		"PRIVATE_TERMS_TF_DOWNPAYMENT": "SVITSJ-betaling",
 		"PRIVATE_TERMS_TF_SWITCH": "SVITSJ-vilkår",
-		"PRIVATE_ORDER_CONTRACT": "Kontrakt",
+		"PRIVATE_ORDER_CONTRACT": "Avtale",
 		"PRIVATE_TERMS_AND_CONDITIONS": "Generelle vilkår"
 	},
 	"simTypes": {
@@ -544,7 +544,7 @@
 		"Finalized": "Gjennomført",
 		"Completed": "Fullført",
 		"Cancelled": "Kansellert",
-		"AttentionRequired": "Attention Required",
+		"AttentionRequired": "Vennligst se nøye gjennom ordren din",
 		"InProgress": "Under arbeid",
 		"Drafted": "Lagret"
 	},
