@@ -6,7 +6,7 @@
 		"plan": "Abonnement",
 		"edit": "Endre",
 		"downPayment": "Nedbetaling",
-		"email": "Epost",
+		"email": "E-post",
 		"address": "Adresse",
 		"name": "Navn",
 		"with": "med",
@@ -24,7 +24,7 @@
 		"firstName": "Fornavn",
 		"lastName": "Etternavn",
 		"serverError": "intern server error",
-		"required": "påkrevd",
+		"required": "Obligatorisk",
 		"notModifiable": "ikke mulig å endre",
 		"customer": "Kunde",
 		"continue": "Fortsett",
@@ -32,57 +32,57 @@
 		"change": "Bytt",
 		"view": "Vis",
 		"failedToLoad": "Æsj – dette gikk dårlig",
-		"device": "Telefon",
+		"device": "Enhet",
 		"payment": "Betaling",
 		"postNr": "Postnummer",
 		"state": "Poststed",
 		"included": "Inkludert",
 		"legalOwner": "Juridisk eier",
-		"deliveryRecipient": "Delivery recipient",
+		"deliveryRecipient": "Mottaker",
 		"phoneNumber": "Tlf.nr",
 		"enter": "Bekreft",
 		"subscription": "Abonnement",
 		"payNow": "Betal nå",
 		"active": "Aktiv",
 		"comment": "Kommentar",
-		"notFound": "Fant ingen ting!",
+		"notFound": "Fant ikke noe!",
 		"insurance": "Forsikring",
 		"cancel": "Avbryt",
 		"saveDraft": "Lagre utkast",
 		"discount": "Rabatt",
 		"orderReference": "Ordrereferanse",
-		"orderNumber": "Order number",
+		"orderNumber": "Ordrenummer",
 		"submittingOrder": "Bekrefter ordre",
 		"from": "Fra",
-		"retry": "Forsøk igjen",
+		"retry": "Prøv igjen",
 		"language": "Språk",
-		"confirm": "Confirm",
-		"close": "Close",
-		"phone": "Phone",
-		"accessory": "Accessory"
+		"confirm": "Bekreft",
+		"close": "Lukk",
+		"phone": "Telefon",
+		"accessory": "Tilbehør"
 	},
 	"validationMessages": {
 		"order": {
-			"empty": "Cannot submit empty order.",
-			"orderNumber": "Order must have Order Number",
-			"orderReference": "Order must have Order Reference",
-			"serialMissing": "{{hardwareName}} requires SN/IMEI"
+			"empty": "Ordre kan ikke være tom.",
+			"orderNumber": "Ordre må ha ordrenummer.",
+			"orderReference": "Ordre må ha referansenummer.",
+			"serialMissing": "{{hardwareName}} krever SN/IMEI"
 		},
-		"chooseProduct": "Velg et produkt",
-		"invalidImei": "IMEI må være 15 siffer",
-		"invalidSim": "SIM må være 20 siffer",
-		"invalidEmail": "Dette er ikke en gyldig epost",
-		"amount": "This is not a valid amount.",
+		"chooseProduct": "Velg produkt",
+		"invalidImei": "IMEI må være 15 siffer langt",
+		"invalidSim": "SIM-nummer må være 20 siffer langt.",
+		"invalidEmail": "Dette er ikke en gyldig e-postadresse.",
+		"amount": "Beløpet er ikke gyldig.",
 		"required": "Må fylles ut :)",
 		"minValue": "Må være større enn {{length}}",
 		"maxValue": "Må være mindre enn {{length}}",
 		"fixedLength": "Må være {{length}} siffer langt",
 		"validLength": "Må være mellom {{minLength}} og {{maxLength}} siffer",
-		"phoneNumber": "Må være 8 eller 12 siffer",
-		"nationalId": "Should be 9 digits or letters long",
-		"numeric": "Må bare inneholde tall",
-		"positive": "Should be a positive number",
-		"integer": "Should be an integer",
+		"phoneNumber": "Må være 8 eller 12 siffer langt",
+		"nationalId": "Bør være 9 siffer eller bokstaver langt",
+		"numeric": "Må kun inneholde tall",
+		"positive": "Bør være et positivt tall",
+		"integer": "Bør være en integer",
 		"selectedCommitmentUnavailable": "Valgt avtaletid er ikke tilgjengelig.",
 		"imei": {
 			"wrongProduct": "IMEI tilhører et annet produkt.",
@@ -104,13 +104,13 @@
 		"toAccessories": "Til tilbehør",
 		"toPhones": "Til Telefoner",
 		"back": "Tilbake",
-		"backToShopSelection": "Back to shop selection",
+		"backToShopSelection": "Tilbake til butikkvalg",
 		"finishOrder": "Fullfør ordre",
 		"submitOrder": "Bekreft ordre",
 		"toPayment": "Til betaling",
 		"sign": "Signer",
 		"toStart": "Til forsiden",
-		"toCheckout": "Go to checkout"
+		"toCheckout": "Til checkout"
 	},
 	"page": {
 		"account": {
@@ -118,7 +118,7 @@
 			"notFound": "Vi fant ingenting.",
 			"editSubscription": "Endre abonnement",
 			"showUsage": "Se forbruk",
-			"showSwitchInfo": "Se Svitjs-info",
+			"showSwitchInfo": "Se SVITSJ-info",
 			"invoiceRecipient": "Fakturaadresse",
 			"newPhone": "Ny telefon",
 			"subscriptions": "Kundens abonnement",
@@ -128,40 +128,40 @@
 			"creditCheck": "Kredittsjekk",
 			"invoiceType": "Fakturatype",
 			"downPaymentStatus": "{{nrOfPaidInstallments}} av {{totalInstallments}} avdrag betalt,. Avdrag pr mnd. {{monthlyCost}}",
-			"switch": "Svitsj",
+			"switch": "SVITSJ",
 			"switchModal": {
-				"title": "Svitjs-informasjon",
+				"title": "SVITSJ-informasjon",
 				"monthlyCost": "Kostnad per måned",
 				"currentDevice": "Kundens telefon",
 				"status": "Status",
-				"startDate": "Start dato",
-				"endDate": "Slutt dato"
+				"startDate": "Startdato",
+				"endDate": "Sluttdato"
 			},
 			"discountedPlanModal": {
 				"title": "Familierabatt",
 				"offering": "Tilbud",
-				"originalPrice": "Ordinare pris",
-				"discountedPrice": "Rabattert pris"
+				"originalPrice": "Ordinær pris",
+				"discountedPrice": "Pris etter rabatt"
 			},
 			"invoiceTypes": {
 				"Unknown": "Ukjent",
-				"Email": "Epost",
+				"Email": "E-post",
 				"Electronic": "Elektronisk faktura",
 				"EHF": "EHF",
 				"Paper": "Papir"
 			}
 		},
 		"landing": {
-			"phones": "Se Telefoner",
-			"subscriptions": "Se Abonnement",
-			"accessories": "Se Tilbehør",
+			"phones": "Telefoner",
+			"subscriptions": "Abonnement",
+			"accessories": "Tilbehør",
 			"prepaids": "Forhåndsbetalte kort",
 			"smartsearch": {
 				"title": "Telefonnummer",
 				"placeholder": "Søk etter nummer",
 				"button": "Søk",
 				"noHits": "Vi fant ingen ting",
-				"customerFound": "Vi fant det! Kunde har Telia :)",
+				"customerFound": "Telia-kunde funnet! :)",
 				"newPhoneNumber": "Nytt nummer"
 			},
 			"identifyCustomerModel": {
@@ -170,16 +170,16 @@
 			}
 		},
 		"login": {
-			"welcomeTitle": "Velkommen til Telia",
+			"welcomeTitle": "Velkommen til Telia!",
 			"enterPhoneNumber": "Logg inn med ditt telefonnummer",
 			"selectShop": "Velg butikk",
 			"sendSms": "Send på SMS",
-			"sendMail": "Send på epost",
+			"sendMail": "Send på e-post",
 			"whoAreYou": "Hvem er du?",
-			"enterOneTimePin": "Åpne butikken med din engangs-pin ",
-			"enterDailyPin": "Din pin for i dag",
+			"enterOneTimePin": "Åpne butikken med din engangs-PIN ",
+			"enterDailyPin": "Din PIN for i dag",
 			"loginFailed": "Innlogging feilet",
-			"logInRequired": "Vennligst log inn",
+			"logInRequired": "Vennligst logg inn",
 			"dailyPinRequired": "Vi trenger din PIN for i dag",
 			"forgotPin": "Har du mistet din PIN?",
 			"pinSentTo": "Vi har sendt ny PIN til {{destination}}",
@@ -188,16 +188,16 @@
 			"welcomeBack": "Velkommen tilbake {{firstName}}.",
 			"dailyPinMethod": "Hvor ønsker du å få ny PIN?",
 			"resend": "Send på nytt",
-			"whichDesk": "Hvilket kassepunkt skal du bruke"
+			"whichDesk": "Hvilken kasse skal du bruke?"
 		},
 		"overview": {
 			"yourOrder": "Din bestilling",
 			"submitSuccess": "Suksess",
 			"removedProduct": "{{name}} er fjernet.",
 			"customerInfo": "Customer info",
-			"addAnother": "Add another",
-			"addCustomer": "Add customer",
-			"editCustomer": "Edit customer"
+			"addAnother": "Legg til mer",
+			"addCustomer": "Legg til kunde",
+			"editCustomer": "Endre kundeinformasjon"
 		},
 		"product": {
 			"chooseColor": "Velg farge",
@@ -213,15 +213,15 @@
 				"gps": "GPS",
 				"length_mm": "Lengde (mm)",
 				"battery_capacity": "Batterikapasitet",
-				"operating_system_version": "Operativsystem",
+				"operating_system_version": "Operativsystem (versjon)",
 				"screen_height_pixels": "Antall pixler i høyden (px)",
 				"rear_camera_still_resolution": "Oppløsning på kamera bak",
 				"smart_phone": "Smarttelefon",
-				"operating_system": "Operating system",
+				"operating_system": "Operativsystem",
 				"3g_network": "3G",
 				"depth_mm": "Tykkelse (mm)",
 				"width_mm": "Bredde (mm)",
-				"screen_size_inches": "Størrelse på skjerm (inches)",
+				"screen_size_inches": "Skjermstørrelse (tommer)",
 				"processor": "Prosessor",
 				"front_camera_still_resolution": "Oppløsning på kamera foran",
 				"screen_width_pixels": "Antall pixler i bredden (px)",
@@ -237,8 +237,8 @@
 				"built_in_storage_capacity": "Innebygget lagring",
 				"ram_size": "RAM"
 			},
-			"addToCart": "Add to cart",
-			"imeiAlreadyInOrder": "Scanned IMEI is already in order"
+			"addToCart": "Legg i handlekurven",
+			"imeiAlreadyInOrder": "Skannet IMEI ble allerede brukt i en annen ordre"
 		},
 		"accessories": {
 			"chooseAccessories": "Velg tilbehør"
@@ -248,15 +248,15 @@
 			"chooseInsurance": "Velg forsikring",
 			"chooseAdditionalServices": "Velg tileggstjenester",
 			"emailModal": {
-				"title": "Denne tjenesten krever en epost",
-				"placeholder": "Brukers's epost"
+				"title": "Denne tjenesten krever e-post",
+				"placeholder": "Brukerens e-post"
 			}
 		},
 		"subscriptionBundle": {
 			"whatIsRightForYou": "Velg abonnement",
 			"chooseCommitment": "Hva er riktig for deg ?",
 			"leasingHeading": "Hvordan vil du betale?",
-			"leasingSelectionHeading": "Hvor mye vil du betale pr mnd?",
+			"leasingSelectionHeading": "Hvor mye vil du betale per måned?",
 			"noLeasing": "Betal nå",
 			"interestFreePayment": "måneder rentefri delbetaling",
 			"newPhoneWithSwitch": "Alltid ny telefon med Svitsj",
@@ -270,8 +270,8 @@
 			"runningCreditCheck": "Sjekker kredittscore",
 			"creditCheckSuccess": "Kredittsjekken er OK.",
 			"loadingCommitments": "Henter avtaler",
-			"draftingOrder": "Drafing order",
-			"draftingSuccessful": "Drafing order was successful!",
+			"draftingOrder": "Lagrer order",
+			"draftingSuccessful": "Ordren er lagret!",
 			"lease": {
 				"planEven": "Kr {{ installment }} pr mnd i {{ duration }}.",
 				"planUneven": "Kr {{ installment }} pr mnd i {{ duration }}, siste termin kr {{ lastInstallment }}."
@@ -280,7 +280,7 @@
 		"documents": {
 			"title": "Hvordan vil du signere?",
 			"showDocuments": "Se avtaler og vilkår",
-			"signingFail": "Signering feilet.",
+			"signingFail": "Signeringen feilet.",
 			"signingSuccess": "Alle documenter er signert!",
 			"methodsFail": "Æsj – vi klarte ikke å hente tilgjengelige signeringsmetoder",
 			"noSigningMethods": "Ingen gyldige metoder for å signere",
@@ -309,12 +309,12 @@
 			}
 		},
 		"receiptActions": {
-			"email": "Send på epost",
+			"email": "Send på e-post",
 			"print": "Print en kopi",
-			"howToDeliver": "Hvordan ønsker du kvitteringen?",
+			"howToDeliver": "Hvordan ønsker du å motta kvitteringen?",
 			"deliveringReceiptsFailed": "Hmm – vi klarte ikke å sende kvittering",
 			"paymentSuccessful": "Betaling utført",
-			"enterEmailAddress": "Skriv inn epost adressen din",
+			"enterEmailAddress": "Skriv inn e-postadressen din",
 			"comment": "Kommentar",
 			"commentPlaceholder": "Notater og kommentarer"
 		},
@@ -329,7 +329,7 @@
 			"cancellingPayment": "Avbryter betaling",
 			"generatingReceipt": "Lager kvittering",
 			"purchaseFailed": "Betalingen feilet… ",
-			"purchaseCancelled": "Purchase was cancelled..."
+			"purchaseCancelled": "Kjøpet ditt ble avbrutt."
 		},
 		"summary": {
 			"header": "Oppsummering",
@@ -342,7 +342,7 @@
 			"youngAdults": "Ung",
 			"children": "Barn",
 			"productUserExceedsAge": "Bruker er eldre enn tillatt alder.",
-			"currentPlan": "Current plan"
+			"currentPlan": "Nåværende abonnement"
 		},
 		"newSubscriptionModal": {
 			"newSubscription": "Nytt abonnement"
@@ -350,26 +350,26 @@
 		"newCustomerModal": {
 			"subscriptionType": "Abonnementstype",
 			"customerType": "Kundetype",
-			"personId": "Personnummer / Org nummer",
+			"personId": "Personnummer / Organisasjonsnummer",
 			"selectIdMehthod": "Hva identifiserer kunden seg med?",
 			"idNumber": "ID nummer",
 			"runCreditCheck": "Gjør en kredittsjekk",
 			"newAccount": "Ny kunde",
-			"existingTeliaAccount": "Eksisterende Telia kunde",
+			"existingTeliaAccount": "Eksisterende Telia-kunde",
 			"idMethod": {
 				"BANK_CARD": "Bankkort",
 				"DRIVERS_LICENSE": "Førerkort",
 				"PASSPORT": "Pass",
 				"NATIONAL_ID_CARD": "ID-kort"
 			},
-			"creditOk": "Kredittsjekken er OK",
-			"creditNotOk": "Kredittsjekken ga avslag",
+			"creditOk": "Kredittsjekk godkjent",
+			"creditNotOk": "Kredittsjekk ikke godkjent",
 			"userNotFound": "Vi fant ingen på denne kredittsjekken"
 		},
 		"stockIndicator": {
 			"inStock": "På lager",
 			"inStockWarehouse": "Tilgjengelig på eksternt lager",
-			"inStockOtherShop": "Tilgjengelig i andre Telia butikker",
+			"inStockOtherShop": "Tilgjengelig i andre Telia-butikker",
 			"notAvailable": "Tomt på lager"
 		},
 		"creditIndicator": {
@@ -387,7 +387,7 @@
 		},
 		"orderOverviewRow": {
 			"payNow": "Betal nå",
-			"simNumber": "Sim nummer",
+			"simNumber": "SIM-nummer",
 			"productUser": "Bruker",
 			"contractDates": "Avtaledato",
 			"extraServices": "Tilleggstjenester",
@@ -396,37 +396,37 @@
 			"perMonthForPhone": "Telefonpris hver måned",
 			"perMonthForServices": "Tjenester hver måned",
 			"perMonthTotal": "Totalt å betale hver måned",
-			"scanNewSimCard": "Skann nytt simkort",
+			"scanNewSimCard": "Skann nytt SIM-kort",
 			"scanImei": "Skann IMEI",
-			"keptExisting": "(Existing)",
+			"keptExisting": "(Eksisterende)",
 			"insuranceDisclaimer": "I tilfelle det eksisterte en forsikring vil den bli fjernet"
 		},
 		"emailInputModal": {
-			"placeholder": "Skriv inn epost adressen din"
+			"placeholder": "Skriv inn e-postadressen din"
 		},
 		"discountModal": {
-			"add": "Add discount",
-			"product": "Product:",
-			"price": "Full price:",
-			"amount": "Discount amount:",
-			"percentage": "Discount percentage:",
-			"category": "Reason for discount:",
+			"add": "Gi rabatt",
+			"product": "Produkt:",
+			"price": "Fullpris:",
+			"amount": "Rabatt (beløp):",
+			"percentage": "Rabatt (prosentvis):",
+			"category": "Grunn for prisavslag:",
 			"description": "Description for discount:",
-			"showMore": "Show more",
-			"showLess": "Show less",
+			"showMore": "Vis mer",
+			"showLess": "Vis mindre",
 			"discountCategory": {
-				"Unknown": "Unknown",
-				"UnhappyCustomer": "Unhappy customer",
-				"Campaign": "Campaign",
-				"Complaints": "Complaints",
-				"Employee": "Employee",
-				"WrongPrice": "Wrong price",
-				"Other": "Other",
-				"TeliaOfficialCampaign": "Telia official campaign"
+				"Unknown": "Ukjent",
+				"UnhappyCustomer": "Misfornøyd kunde",
+				"Campaign": "Kampanje",
+				"Complaints": "Klage",
+				"Employee": "Ansatt",
+				"WrongPrice": "Feil pris",
+				"Other": "Annet",
+				"TeliaOfficialCampaign": "Offisiell Telia-kampanje"
 			}
 		},
 		"itemScanModal": {
-			"pleaseScanSim": "Skann Simkort for:",
+			"pleaseScanSim": "Skann SIM-kort for:",
 			"pleaseScanImei": "Skann IMEI for:"
 		},
 		"debugModal": {
@@ -440,8 +440,8 @@
 			"contactSupport": "Please contact support and report the issue"
 		},
 		"updateModal": {
-			"title": "An update is available",
-			"update": "Update now"
+			"title": "Oppdatering tilgjengelig",
+			"update": "Oppdater nå"
 		},
 		"errorModal": {
 			"defaultTitle": "Æsh, her var det noe som ikke virket."
@@ -452,7 +452,7 @@
 			"defaultYes": "Aksepter"
 		},
 		"backToShopSelectionModal": {
-			"title": "Are you sure you want to go back to shop selection?"
+			"title": "Er du sikker på at du vil gå tilbake til butikkvalg?"
 		},
 		"backToAccount": {
 			"cancelConfirmation": "Er du sikker på at du vil avbryte ordren?",
@@ -466,11 +466,11 @@
 		"modelFilters": {
 			"chooseBrand": "Alle merker",
 			"chooseCategory": "Alle kategorier",
-			"searchPhones": "Search phone",
-			"searchAccessories": "Search accessories"
+			"searchPhones": "Søk",
+			"searchAccessories": "Søk"
 		},
 		"cart": {
-			"yourCart": "Your cart"
+			"yourCart": "Din handlekurv"
 		}
 	},
 	"errors": {
@@ -481,23 +481,23 @@
 			"timeout": "Tilkobling tok for lang tid"
 		},
 		"SALESAGENT_NOT_FOUND_DEALER": "Ukjent nummer",
-		"TOO_MANY_TRIES": "For mange forsøk med feil PIN. Be om en ny.",
+		"TOO_MANY_TRIES": "For mange forsøk med feil PIN. Be om ny PIN-kode.",
 		"PIN_EXPIRED": "PIN er ikke lenger gyldig. Be om en ny PIN.",
 		"PIN_INCORRECT": "Feil PIN",
-		"PIN_NOT_FOUND": "Ingen PIN funnet. Be om en ny",
-		"IMEI_INVALID": "Ikke gyldig IMEI",
+		"PIN_NOT_FOUND": "Ingen PIN funnet. Be om ny PIN-kode.",
+		"IMEI_INVALID": IMEI ikke gyldig",
 		"EMAIL_NOT_SENT": "Klarte ikke å sende epost.",
-		"SIMCARD_NOT_AVAILABLE": "Simkort er ikke tilgjengelig.",
+		"SIMCARD_NOT_AVAILABLE": "SIM-kort er ikke tilgjengelig.",
 		"IMEI_NOT_AVAILABLE": "IMEI er ikke tilgjengelig.",
 		"MAX_AGE_OF_PRODUCT_USER_EXCEEDED": "Brukers alder er over tillatt alder.",
 		"BUSINESS_LOOKUP_NOT_SUPPORTED": "Foreløpig kan man ikke søke opp bedriftskunder.",
-		"PREPAID_LOOKUP_NOT_SUPPORTED": "Prepaid account lookup is not supported",
-		"RESERVED_LOOKUP_NOT_SUPPORTED": "Reserved number lookup is not supported.",
+		"PREPAID_LOOKUP_NOT_SUPPORTED": "Kontantkort kundeforhold kan foreløpig ikke søkes opp",
+		"RESERVED_LOOKUP_NOT_SUPPORTED": "Reserverte numre kan føreløpig ikke søkes opp",
 		"TELEPHONE_NUMBER_IN_USE_ON_ORDER_IN_PROGRESS": "Dette nummeret er i en annen ordreprosess.",
 		"NOT_FOUND": "Ingenting funnet!",
 		"HARDWARE_NOT_AVAILABLE": "Ikke tilgjenglig for salg.",
-		"ILLEGAL_ADDITIONAL_PRODUCT_COMBINATION": "Illegal additional product combination.",
-		"CASHBOX_NOT_OPENING": "Could not open the cashbox"
+		"ILLEGAL_ADDITIONAL_PRODUCT_COMBINATION": "Disse produktene kan ikke kombineres.",
+		"CASHBOX_NOT_OPENING": "Kunne ikke åpne kasseapparatet"
 	},
 	"warnings": {
 		"scanNotHandled": "Scanned identifier {{identifier}} ignored"
@@ -507,29 +507,29 @@
 		"DATA_OUTDATED": "Priser kan være utdatert og vi klarte ikke å oppdatere dem"
 	},
 	"documents": {
-		"PRIVATE_TERMS_TF_SWITCH_INSURANCE": "Svitsj forsikring",
-		"PRIVATE_TERMS_TF_DOWNPAYMENT": "Svitsj betaling",
-		"PRIVATE_TERMS_TF_SWITCH": "Svitsj vilkår",
+		"PRIVATE_TERMS_TF_SWITCH_INSURANCE": "SVITSJ-forsikring",
+		"PRIVATE_TERMS_TF_DOWNPAYMENT": "SVITSJ-betaling",
+		"PRIVATE_TERMS_TF_SWITCH": "SVITSJ-vilkår",
 		"PRIVATE_ORDER_CONTRACT": "Kontrakt",
 		"PRIVATE_TERMS_AND_CONDITIONS": "Generelle vilkår"
 	},
 	"simTypes": {
-		"DataSIM": "DataSIM",
-		"ESIM": "ESIM",
-		"SimCard": "Simkort"
+		"DataSIM": "Data-SIM",
+		"ESIM": "e-SIM",
+		"SimCard": "SIM-kort"
 	},
 	"switchAgreementStatuses": {
 		"Unknown": "Ukjent",
 		"Active": "Aktiv"
 	},
 	"pinAuthResult": {
-		"PinExpired": "PIN er utgått. Be om en ny.",
-		"TooManyAttempts": "For mange feil forsøk. Be om en ny PIN!",
-		"Error": "Det skjedde en feil.",
+		"PinExpired": "PIN er utgått. Be om ny PIN-kode.",
+		"TooManyAttempts": "For mange feil forsøk. Be om ny PIN-kode!",
+		"Error": "Det har oppstått en feil.",
 		"IncorrectLogin": "Ikke en gyldig PIN.",
-		"NotFound": "Ikke gyldig PIN. Be om en ny.",
-		"CashboxOpen": "Please close your cashbox",
-		"CashboxOffline": "Cashbox is offline"
+		"NotFound": "Ikke gyldig PIN. Be om ny PIN-kode.",
+		"CashboxOpen": "Vennligst lukk kasseapparatet",
+		"CashboxOffline": "Kassa er offline."
 	},
 	"signingMethod": {
 		"IdPhoto": "ID Photo",
@@ -538,15 +538,15 @@
 		"SignOnly": "SignOnly"
 	},
 	"orderStatus": {
-		"Initialized": "Initialized",
-		"Reserved": "Reserved",
-		"Confirmed": "Confirmed",
-		"Finalized": "Finalized",
-		"Completed": "Completed",
-		"Cancelled": "Cancelled",
+		"Initialized": "Initialisert",
+		"Reserved": "Reservert",
+		"Confirmed": "Bekreftet",
+		"Finalized": "Gjennomført",
+		"Completed": "Fullført",
+		"Cancelled": "Kansellert",
 		"AttentionRequired": "Attention Required",
-		"InProgress": "In Progress",
-		"Drafted": "Drafted"
+		"InProgress": "Under arbeid",
+		"Drafted": "Lagret"
 	},
 	"serviceCategory": {
 		"Recommended": "Anbefalte",
@@ -557,7 +557,7 @@
 		"Get": "Telia totalkunde",
 		"Promo": "Promo",
 		"Other": "Annet",
-		"Leas_Existing": "Existing leasings"
+		"Leas_Existing": "Eksisterende leasingavtaler"
 	},
 	"filter": {
 		"CHARGER": "Ladere og kabler",
