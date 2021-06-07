@@ -94,7 +94,7 @@
 			"error": "Feil ved validering av SIM.",
 			"notFound": "Fant ikke SIM."
 		},
-		"notSupported": "Entered value is not supported in this search."
+		"notSupported": "Denne verdien kan ikke søkes opp."
 	},
 	"navigation": {
 		"toSubscriptions": "Til abonnement",
@@ -166,7 +166,7 @@
 			},
 			"identifyCustomerModel": {
 				"title": "Bekreft ID på kunde",
-				"selectIdMethod": "Hva legitimerer kunden seg med?"
+				"selectIdMethod": "Kunden ble verifisert med:"
 			}
 		},
 		"login": {
@@ -194,7 +194,7 @@
 			"yourOrder": "Din bestilling",
 			"submitSuccess": "Suksess",
 			"removedProduct": "{{name}} er fjernet.",
-			"customerInfo": "Customer info",
+			"customerInfo": "Kundeinformasjon",
 			"addAnother": "Legg til mer",
 			"addCustomer": "Legg til kunde",
 			"editCustomer": "Endre kundeinformasjon"
@@ -232,7 +232,7 @@
 				"weight_g": "Vekt (g)",
 				"hd_voice": "HD voice",
 				"voice_over_lte": "Voice over LTE",
-				"voice_over_wifi": "Voice over WiFi",
+				"voice_over_wifi": "WiFi tale",
 				"bluetooth": "Bluetooth",
 				"built_in_storage_capacity": "Innebygget lagring",
 				"ram_size": "RAM"
@@ -474,8 +474,8 @@
 		}
 	},
 	"errors": {
-		"EXTERNAL_SYSTEM_ERROR": "External system responded with error",
-		"INTERNAL_SYSTEM_ERROR": "Internal system responded with error",
+		"EXTERNAL_SYSTEM_ERROR": "Ekstern systemfeil",
+		"INTERNAL_SYSTEM_ERROR": "Intern systemfeil",
 		"general": {
 			"draftOrder": "Lagre til utkast feilet.",
 			"timeout": "Tilkobling tok for lang tid"
@@ -544,7 +544,7 @@
 		"Finalized": "Gjennomført",
 		"Completed": "Fullført",
 		"Cancelled": "Kansellert",
-		"AttentionRequired": "Attention Required",
+		"AttentionRequired": "Vennligst se nøye gjennom ordren din",
 		"InProgress": "Under arbeid",
 		"Drafted": "Lagret"
 	},
